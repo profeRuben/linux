@@ -1,5 +1,5 @@
 
-# Guía de Comandos Básicos en Linux - Duoc UC (Versión Móvil)
+# Guía de Comandos Básicos en Linux
 
 ## 01. Comandos básicos en Linux
 
