@@ -22,37 +22,7 @@ Este repositorio contiene material de apoyo para estudiantes de Duoc UC que est�
 ### 4. Permisos de archivos
 - Entender y modificar permisos con `chmod`, `chown`, y `chgrp`
 
----
 
-## 📦 Archivos disponibles
-
-- `Guia_Comandos_Linux_Duoc.md` – Guía completa en Markdown para revisión o edición.
-- `Guia_Comandos_Linux_Duoc.pdf` – Versión imprimible en PDF.
-
----
-
-## 🚀 Requisitos sugeridos
-
-- Acceso a una máquina Linux (por ejemplo, una instancia EC2 en AWS).
-- Terminal de comandos (bash, zsh, etc.).
-- Privilegios de superusuario para probar comandos como `sudo`.
-
----
-
-## ✅ Cómo usar este material
-
-1. Descarga el PDF o visualiza el `.md` directamente en GitHub.
-2. Abre una terminal en tu entorno Linux.
-3. Prueba cada comando comenzando por los más simples.
-4. Si tienes dudas, usa `man comando` para leer el manual.
-
----
-
-## 🧑‍🏫 Recomendado para:
-
-- Estudiantes de Ingeniería o Técnico en Informática
-- Cursos de Sistemas Operativos
-- Prácticas en Linux básico (talleres, laboratorios, evaluaciones)
 
 ---
 
