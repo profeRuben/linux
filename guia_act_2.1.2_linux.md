@@ -259,9 +259,29 @@ sudo userdel estudiante
 ```
 
 
+
 ### Archivos del sistema
+
 - `/etc/passwd`: Registro de usuarios.  
 - `/etc/shadow`: Contraseñas cifradas.
+
+#### Visualización
+
+Para revisar el contenido de estos archivos, puedes usar:
+
+```bash
+cat /etc/passwd
+sudo cat /etc/shadow
+```
+
+También puedes editarlos con:
+
+```bash
+sudo nano /etc/passwd
+sudo nano /etc/shadow
+```
+
+> ⚠️ El archivo `/etc/shadow` requiere permisos de superusuario.
 
 ### Grupos
 **groupadd**
