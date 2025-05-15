@@ -35,6 +35,28 @@ No se requiere portada ni formato especial.
 
 ## Parte 3: Introducción a `cron`
 
+
+**Antes de comenzar:** Verifica si `cron` está instalado. En algunas instancias de Amazon Linux, es necesario instalarlo manualmente.
+
+**1. Verifica si `cron` está disponible:**
+```bash
+crontab -l
+```
+Si ves un error como `command not found`, sigue con el paso 2.
+
+**2. Instala y activa `cron` (si es necesario):**
+```bash
+sudo yum install cronie -y
+sudo systemctl start crond
+sudo systemctl enable crond
+```
+
+**3. Verifica que el servicio esté corriendo:**
+```bash
+systemctl status crond
+```
+
+
 ### ¿Qué es?
 
 `cron` permite programar tareas automáticas en Linux. Se usa para que comandos se ejecuten solos en momentos definidos.
